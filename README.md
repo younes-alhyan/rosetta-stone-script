@@ -4,6 +4,16 @@ This is a Node.js program designed to automatically complete lessons on the Rose
 
 If you need assistance obtaining the required tokens, you can contact the program's author me on GitHub.
 
+> This project is originally created by [Sam Pearlman](https://github.com/SamPearlma).
+> The original repository is no longer available, so this version serves as a backup to preserve the code.
+> Some accompanying guide videos were also recreated for reference.
+
+## Note
+
+This script only works with Rosetta Stone Foundations (A1–A2 levels).
+
+If you are using Rosetta Stone Fluency Builder (B1–C1 levels), you should instead use the browser extension [RosettaStonks](https://github.com/m1dugh/RosettaStonks), which is easier to use and is also expected to work with Foundations.
+
 ## Configuration
 
 To configure the program, open the constants.json file and set the following constants:
@@ -20,9 +30,9 @@ To configure the program, open the constants.json file and set the following con
 }
 ```
 
-Make sure to replace "YOUR_AUTHORIZATION_TOKEN", "YOUR_SESSION_TOKEN", "YOUR_SCHOOL_NAME", "YOUR_USER_ID", and "YOUR_LANGUAGE_CODE" with your actual Rosetta Stone credentials
+Make sure to replace `YOUR_AUTHORIZATION_TOKEN`, `YOUR_SESSION_TOKEN`, `YOUR_SCHOOL_NAME`, `YOUR_USER_ID`, and `YOUR_LANGUAGE_CODE` with your actual Rosetta Stone credentials.
 
-The Authorization Token, Session Token, and User Id can be taken from the network request when the main page loads. Look for a file titled graphql
+> The required values are explained in [Filling Constants.json](#filling-constantsjson).
 
 ## Usage
 
@@ -30,27 +40,26 @@ TO BEGIN
 Make sure to install nodejs from here https://nodejs.org.
 
 ### Download files
+
 This is a video showing how to download the files from github and open the ones you need in a text editor
 
-https://github.com/CheeseDanish1/Rosetta-Stone-Hack/assets/65871181/ac35f1b7-2daa-498f-8a59-e7fbe4147024
+https://github.com/user-attachments/assets/4fc7014e-6d78-44fc-a8a0-54e17e9c0b6f
 
 ### Filling Constants.json
 
-https://github.com/CheeseDanish1/Rosetta-Stone-Hack/assets/65871181/1d907c8f-5430-4b70-8fcd-947d35ab44db
-
+https://github.com/user-attachments/assets/907f2c0d-22b6-4f1f-9901-13e8c7469d0e
 
 ### Percent Correct (OPTIONAL)
+
 By default, the program randomly does between 89% to 100% correct. If you want to change it follow this video
 
-https://github.com/CheeseDanish1/Rosetta-Stone-Hack/assets/65871181/cc817b15-a809-4171-9f12-6b555ca86ef2
+https://github.com/user-attachments/assets/dc81d623-0062-4008-9620-8e75e79464ef
 
 ### Running program
+
 This video shows you how to run the program
 
-https://github.com/CheeseDanish1/Rosetta-Stone-Hack/assets/65871181/9e44b644-60a0-4507-a24b-fc96086f7edd
-
-
-If anyone has further questions watch the videos and then if they persist open an issue. All explanations used firefox.
+https://github.com/user-attachments/assets/3f38a70d-d4b3-4348-ba8d-8cbbdc5e8c63
 
 ## Program Files
 
@@ -61,4 +70,3 @@ If anyone has further questions watch the videos and then if they persist open a
 ## Disclaimer
 
 Use this program responsibly and in accordance with Rosetta Stone's terms and conditions. Automated completion of lessons may violate their policies. The I take no responsibility for any misuse or consequences that may arise from using this software.
-
